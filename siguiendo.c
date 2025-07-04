@@ -26,6 +26,14 @@ int main()
         fahr2 = fahr2 + step;
     }
 
+    printf("Ciclo for:\n");
+    for (fahr = 0; fahr <= 300; fahr += 20)
+    {
+        printf("%3d %6.1f\n",fahr,(5.0/9.0) * (fahr2 - 32));
+    }
+    
+    
+
     //este comentario lo agrego desde la notebook jejeje
 
 }
