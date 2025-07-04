@@ -26,5 +26,6 @@ int main()
         fahr2 = fahr2 + step;
     }
 
+    //este comentario lo agrego desde la notebook jejeje
 
 }
